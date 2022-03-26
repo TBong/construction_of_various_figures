@@ -48,7 +48,7 @@ internal class Program
                     Console.WriteLine("Введите ширину:");
                     x = int.Parse(Console.ReadLine());
                     Console.WriteLine();
-                    Console.WriteLine("Введите время в милмисикундах:");
+                    Console.WriteLine("Введите время в миллисекундах:");
                     slp = int.Parse(Console.ReadLine());
                     Console.WriteLine();
 
@@ -74,7 +74,7 @@ internal class Program
                     Console.WriteLine("Введите высоту:");
                     y = int.Parse(Console.ReadLine());
                     Console.WriteLine();
-                    Console.WriteLine("Введите время в милмисикундах:");
+                    Console.WriteLine("Введите время в миллисекундах:");
                     slp = int.Parse(Console.ReadLine());
                     Console.WriteLine();
 
@@ -152,7 +152,7 @@ internal class Program
 
             // выбираем повторить программу или нет
             }
-            Console.WriteLine("Запустить программу заного?");
+            Console.WriteLine("Запустить программу заново?");
             ret = Console.ReadLine();
             Console.WriteLine();
         }
